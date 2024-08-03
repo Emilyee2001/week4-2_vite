@@ -1,0 +1,49 @@
+// bg-color
+.bg-primary{
+    background-color: $c-primary;
+}
+.bg-secondary{
+    background-color: $bg-secondary;
+}
+.bg-white{
+    background-color: $c-white;
+}
+
+// color
+.c-white{
+    color: $c-white;
+}
+
+// display:flex
+.d-flx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jc-space-btwn{
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+.fxd-column{
+    flex-direction: column;
+}
+
+// margin
+.mb-2{
+    margin-bottom: 8px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.m-4{
+    margin: 16px;
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+
+// gap
+.gp-6{
+    gap: 24px 0;
+}

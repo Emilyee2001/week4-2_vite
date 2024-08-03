@@ -1,0 +1,61 @@
+.store-wrap{
+    margin: 96px 0 80px;
+}
+.store-title{
+    font-size: $stores-title-l;
+    font-weight: $fw-l;
+    padding: 0 16px;
+    border-left: 8px solid #9F1213;
+}
+.store-form{
+    margin: 33px 0 40px;
+}
+.store-location{
+    font-size: $stores-title-m;
+}
+.location-select{
+    width: 304px;
+    height: 38px;
+    margin-left: 16px;
+    border: 1px solid #CED4DA;
+    color: #495057;
+}
+.store-name{
+    font-size: $stores-title-m;
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+.store-contact{
+    font-size: $stores-text;
+    flex-direction: column;
+    gap: 8px 0;
+    padding: 16px 24px;
+    border: 1px solid #00000020;
+}
+.store-contact-icon{
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+    display: inline-block;
+}
+.store-detail{
+    font-size: 19px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: auto;
+    &:hover{
+        background-color: #00000020;
+    }
+}
+.store-card{
+    height: 100%;
+    flex-direction: column;
+}
+.store-group{
+    gap: 48px 0;
+    @include pad{
+        padding-top: 24px 0;
+    }
+}

@@ -1,0 +1,18 @@
+// banner-product
+.banner-product-page3, 
+.banner-product-page4{
+    width: 50%;
+    height: 296px;
+}
+.banner-product-page3{
+    background-image: url(/assets/images/product-header-3.png);
+    @include pad{
+        background-image: url(/assets/images/product-header-sm-3.png);
+    }
+}
+.banner-product-page4{
+    background-image: url(/assets/images/product-header-4.png);
+    @include pad{
+        background-image: url(/assets/images/product-header-sm-4.png);
+    }
+}

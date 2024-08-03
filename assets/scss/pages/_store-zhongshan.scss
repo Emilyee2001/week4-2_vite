@@ -1,0 +1,33 @@
+.store-card-detail{
+    max-width: 40%;
+    @include pad{
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    @include mobile{
+      flex-direction: column;  
+    }
+}
+.store-map{
+    max-width: 58%;
+    img{
+        height: 100%;
+    }
+}
+
+@include pad{
+    .store-card-rwd{
+        width: calc((100% - 24px) / 2);
+    }
+    .store-map{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+}
+@include mobile{
+    .store-card-rwd{
+        width: 100%;
+    }
+}
